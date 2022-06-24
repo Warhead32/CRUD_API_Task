@@ -10,7 +10,7 @@ app.use(express.json());
 //////////////////////////////////
 // Connection to database.
 const mongoPort = 27017;
-const url = `mongodb://127.0.0.1:${mongoPort}/AlienDB`;
+const url = `mongodb://127.0.0.1:${mongoPort}/employeeDB`;
 
 mongoose
   .connect(url, {
@@ -57,7 +57,7 @@ const Employee = mongoose.model("Employee", empSchema);
 
 //////////////////////
 // Routing
-// Root Route for getting All Employees
+// Route for listing All Employees
 app.get("/api/employee", async (req, res) => {
   try {
     const data = await Employee.find({}).sort({
