@@ -15,6 +15,7 @@
 ### MongoDB Document Structure
 So there will be collection in MongoDb :-  employees
 And structure for every employee
+```
 {
     “_id” : “1”
     “firstName” :  “Abc”,
@@ -24,6 +25,7 @@ And structure for every employee
     “basicSalary”: 50000,
     “designation” : “Marketing manager”
 }
+```
 
 ### API RESPONSES
 #### 1. Add/Create employee API response
