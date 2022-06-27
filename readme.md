@@ -118,4 +118,4 @@ HTTP Code: 200
 ```
 ### GET request for 'List All Employees' shows all the employees in the database in a sorted order which is based on firstName. That's why i've also created Indexes for firstName.
 
-### Never thought it'll get attention, but as I am new to creating APIs, any suggestion for better error handling or ideas for new features or better way of writing the code will be appreciated.
+### **EDIT -** Never thought it'll get attention, but as I am new to creating APIs, any suggestion for better error handling or ideas for new features or better way of writing the code will be appreciated.
